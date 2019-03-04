@@ -1,0 +1,166 @@
+#about {
+    position: relative;
+    margin: 0 0 -3rem 0;
+    padding: 20px;
+}
+
+    #about .about.dialog {
+        position: relative;
+        box-shadow: inset 0px 10px 20px 5px rgba(255,255,255,1), 5px 5px 20px 5px rgba(0,0,0,0.5);
+        -moz-transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        -o-transform: rotate(-1deg);
+        -webkit-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+    }
+
+    #about .dialog article:nth-child(2n+1) {
+        margin-right: 1%;
+    }
+
+    #about .dialog article:nth-child(2n) {
+        margin-left: 1%;
+    }
+
+    #about .about.dialog:after {
+        position: absolute;
+        top: -28px;
+        left: 150px;
+        width: 0;
+        height: 0;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        content: "";
+    }
+
+    #about .dialog article {
+        float: left;
+        margin-bottom: 20px;
+        width: 49%;
+    }
+
+    #about > .dialog > article > h1 {
+        display: inline-block;
+        margin: 0px 0px 10px -10px;
+        padding: 5px;
+        background: rgba(0,176,246,0.5);
+        font-weight: normal;
+        font-size: 2.5rem;
+        -moz-transform: rotate(-4deg);
+        -ms-transform: rotate(-4deg);
+        -o-transform: rotate(-4deg);
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+
+
+.folder-back-group {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    background: transparent;
+}
+
+#somePhotos {
+    margin: 0 3rem;
+    text-align: center;
+}
+
+    #somePhotos > li {
+        position: relative;
+        z-index: 200;
+        display: inline-block;
+        margin: 0 -2% -2% 0;
+        padding: 0.5%;
+        width: 33%;
+        background: #eee;
+        box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.7), inset 0px 0px 50px 15px rgba(255,255,255,0.5);
+        -moz-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        -webkit-transition: all 0.6s;
+        transition: all 0.6s;
+        /* float: left; */
+        /*background: #fff url(../img/UI/instaBack.jpg) repeat;*/
+    }
+
+        #somePhotos > li:first-child {
+            -moz-transform: rotate(4deg);
+            -ms-transform: rotate(4deg);
+            -o-transform: rotate(4deg);
+            -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+        }
+
+        #somePhotos > li:nth-child(2) {
+            -moz-transform: rotate(-2deg);
+            -ms-transform: rotate(-2deg);
+            -o-transform: rotate(-2deg);
+            -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+        }
+
+        #somePhotos > li:nth-child(3) {
+            -moz-transform: rotate(6deg);
+            -ms-transform: rotate(6deg);
+            -o-transform: rotate(6deg);
+            -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+        }
+
+        #somePhotos > li:nth-child(4) {
+            max-width: 800px;
+            width: 50%;
+            -moz-transform: rotate(-1deg);
+            -ms-transform: rotate(-1deg);
+            -o-transform: rotate(-1deg);
+            -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+        }
+
+        #somePhotos > li:nth-child(5) {
+            max-width: 800px;
+            width: 50%;
+            -moz-transform: rotate(1deg);
+            -ms-transform: rotate(1deg);
+            -o-transform: rotate(1deg);
+            -webkit-transform: rotate(1deg);
+            transform: rotate(1deg);
+        }
+
+        #somePhotos > li:hover {
+            z-index: 201;
+            -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    #about {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+        #about .about.dialog:after {
+            left: 5%;
+        }
+
+        #about .dialog article {
+            width: 100%;
+        }
+
+    #somePhotos {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+        #somePhotos > li {
+            width: 90% !important;
+        }
+}

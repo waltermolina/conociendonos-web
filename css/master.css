@@ -1,0 +1,60 @@
+html{
+    font-size: 10px;
+    background: #000;
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: #000;
+    /*height: 100%;*/
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+canvas {
+    -ms-touch-action: double-tap-zoom;
+}
+
+/******************************************************************************/
+.clr{clear: both;}
+.font-weight-bold {font-weight: bold;}
+.font-style-italic{font-style: italic;}
+.left{float: left;}
+.right{float: right;}
+
+.fix-icon {
+    background-image: none !important;
+}
+
+/****SQUARED PAPER****/
+.squared-paper-background {
+    background-color: #fff;
+    background-image: linear-gradient(rgba(200,200,200,.6) 1px, transparent 1px), linear-gradient(90deg, rgba(200,200,200,.6) 1px, transparent 1px);
+    background-size: 20px 20px, 20px 20px;
+    background-position: -1px -1px, -1px -1px;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+.squared-paper-background > p{
+    margin-bottom: 20px;
+}
+
+/****LINED PAPER****/
+.lined-paper-background {
+    background-color: #fff;
+    background-image: linear-gradient(rgba(200,200,200,.6) 1px, transparent 1px);
+    background-size: 25px 25px;
+    background-position: -1px -1px, -1px -1px;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 25px;
+}
+.lined-paper-background  p{
+    margin-bottom: 25px;
+}
+
+

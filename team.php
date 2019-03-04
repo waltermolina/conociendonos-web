@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+        <title>Inicio</title>
+
+        <!-- Main Style -->
+        <link rel="stylesheet" type="text/css" href="css/team.css" />
+
+    </head>
+    <body>
+        <section id="team">
+            <header>
+                <h1>Conocé al equipo</h1>
+            </header>
+            <div class="group-photo">
+                <img src="img/content/team1024.jpg">
+            </div>
+            <ul id="members">
+                <li><img src="img/content/profileAleN1.jpg" /><h2>Alejandro Nogueira</h2></li>
+                <li><img src="img/content/profileEli1.jpg" /><h2>Elizabeth Canteros</h2></li>
+                <li><img src="img/content/profileAleG1.jpg" /><h2>Alejandro Gonzalez</h2></li>
+                <li><img src="img/content/profileJuana1.jpg" /><h2>Juana de Dios Galian</h2></li>
+                <li><img src="img/content/profileHoracio1.jpg" /><h2>Horacio Lopez</h2></li>
+            </ul>
+
+        </section>
+    </body>

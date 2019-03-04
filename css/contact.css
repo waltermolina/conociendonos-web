@@ -1,0 +1,113 @@
+#contact {
+    margin: 0 2rem 2rem 2rem;
+    position: relative;
+    box-shadow: inset 0px 10px 20px 5px rgba(255,255,255,1), 5px 5px 20px 5px rgba(0,0,0,0.5);
+}
+
+#contact > header  {
+    position: absolute;
+    top: -5%;
+    right: 2%;
+    z-index: 502;
+}
+#contact > header > h1 {
+    font-weight: normal;  font-size: 2.5rem;  
+    display: inline-block;  
+    margin: 0px 0px 10px -20px;  
+    height: 4rem;  
+    line-height: 4rem;
+    padding: 0 10px;
+    position: relative;
+    background: #00B0F6;
+    box-shadow: 2px 3px 10px -2px rgba(0,0,0,0.5);
+    -webkit-transform: rotate(3deg);
+}
+#contact > header > h1:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #00B0F6 transparent transparent transparent;
+    bottom: -18px;
+    left: 150px;
+}
+
+
+#contactForm input,
+#contactForm textarea {
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    margin: 0 0 25px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 10px;
+    color: #006;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.6rem;
+    border: none;
+    border-bottom: 2px dotted #555;
+    background: transparent;
+}
+#contactForm input:focus, #contactForm textarea:focus {
+    background: rgba(0,176,246,0.3);
+}
+.leftGroup {
+    width: 25%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.rightGroup {
+    width: 74%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.rightGroup textarea {
+    height: 175px !important;
+    max-height: 175px;
+    max-width: 100%;
+    border: 2px dotted #555 !important;
+}
+
+.result {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 34px;
+    margin-right: 10px;
+    font-size: 2.5rem;
+    font-family: "Reenie Beanie",arial,sans-serif;
+    margin-right: 10px;
+}
+.result.warning{
+    text-shadow: 0px 0px 20px #ff0;
+}
+.result.success{
+    text-shadow: 0px 0px 20px #0f0;
+}
+
+/*EMAIL LINK*/
+#byMail {
+width: 50%;
+padding: 2rem;
+background: lightyellow;
+font-size: 3rem;
+font-family: "Reenie Beanie",arial,sans-serif;
+margin: 0rem 0 -8rem 4rem;
+-webkit-transform: rotate(-4deg);
+box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+display: inline-block;
+float: left;
+}
+#byMail > a{
+    color: #000;
+}
+

@@ -1,0 +1,359 @@
+#team {
+    position: relative;
+    padding: 0 20px;
+    text-align: center;
+    -moz-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
+    #team > .group-photo {
+        display: inline-block;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-bottom: -10%;
+        max-width: 90%;
+        background: #fff;
+        box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
+    }
+
+    #team > header {
+        position: absolute;
+        top: 5%;
+        left: 8%;
+        z-index: 502;
+    }
+
+        #team > header > h1 {
+            position: relative;
+            display: inline-block;
+            margin: 0px 0px 10px -20px;
+            padding: 0 10px;
+            height: 4rem;
+            background: #00B0F6;
+            box-shadow: -2px -2px 10px 2px rgba(0,0,0,0.5);
+            font-weight: normal;
+            font-size: 2.5rem;
+            line-height: 4rem;
+        }
+
+            #team > header > h1:after {
+                position: absolute;
+                bottom: -18px;
+                left: 150px;
+                width: 0;
+                height: 0;
+                border-width: 10px;
+                border-style: solid;
+                border-color: #00B0F6 transparent transparent transparent;
+                content: "";
+            }
+
+    #team > .group-photo > img {
+        display: block;
+    }
+
+.back-photo {
+    position: absolute;
+    top: 2.5%;
+    right: 7%;
+    bottom: 5%;
+    left: 5%;
+    z-index: 100;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 90%;
+    background-color: #269;
+    background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    -moz-background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    -o-background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    -webkit-background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+#membersList {
+    text-align: center;
+}
+
+#members > li {
+    position: relative;
+    z-index: 200;
+    display: inline-block;
+    padding: 0.5rem;
+    width: 15%;
+    background: #fff url(../img/UI/instaBack.jpg) repeat;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.7), inset 0px 0px 50px 15px rgba(255,255,255,0.5);
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+    #members > li > img {
+    }
+
+    #members > li > h2 {
+        padding: 0.5rem;
+        font-size: 1.6rem;
+    }
+
+    #members > li:first-child {
+        -moz-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        -o-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+
+        #members > li:first-child > h2 {
+            -moz-transform: rotate(2deg);
+            -ms-transform: rotate(2deg);
+            -o-transform: rotate(2deg);
+            -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+        }
+
+    #members > li:nth-child(2) {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+        #members > li:nth-child(2) > h2 {
+            -moz-transform: rotate(-4deg);
+            -ms-transform: rotate(-4deg);
+            -o-transform: rotate(-4deg);
+            -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+        }
+
+    #members > li:nth-child(3) {
+        -moz-transform: rotate(6deg);
+        -ms-transform: rotate(6deg);
+        -o-transform: rotate(6deg);
+        -webkit-transform: rotate(6deg);
+        transform: rotate(6deg);
+    }
+
+        #members > li:nth-child(3) > h2 {
+            -moz-transform: rotate(-2deg);
+            -ms-transform: rotate(-2deg);
+            -o-transform: rotate(-2deg);
+            -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+        }
+
+    #members > li:nth-child(4) {
+        -moz-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+    }
+
+        #members > li:nth-child(4) > h2 {
+            -moz-transform: rotate(2deg);
+            -ms-transform: rotate(2deg);
+            -o-transform: rotate(2deg);
+            -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+        }
+
+    #members > li:last-child {
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+        #members > li:last-child > h2 {
+            -moz-transform: rotate(2deg);
+            -ms-transform: rotate(2deg);
+            -o-transform: rotate(2deg);
+            -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+        }
+
+    #members > li:hover {
+        z-index: 201;
+        -moz-transform: scale(1.1) rotate(0deg);
+        -ms-transform: scale(1.1) rotate(0deg);
+        -o-transform: scale(1.1) rotate(0deg);
+        -webkit-transform: scale(1.1) rotate(0deg);
+        transform: scale(1.1) rotate(0deg);
+    }
+
+
+.folder-front {
+    position: relative;
+    z-index: 101;
+    margin: -370px -10px 0px -10px;
+    height: 380px;
+    border-radius: 10px 10px 0 0;
+    background: url(../img/cardboard7.jpg);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7), 0px -15px 30px -5px rgba(0,0,0,0.3);
+    -moz-transform: perspective(800) rotatex(-5deg);
+    -ms-transform: perspective(800) rotatex(-5deg);
+    -o-transform: perspective(800) rotatex(-5deg);
+    -webkit-transform: perspective(800) rotatex(-5deg);
+    transform: perspective(800) rotatex(-5deg);
+}
+
+#team > article {
+    position: relative;
+    padding: 0 100px;
+}
+
+.folder-back {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    background: url(../img/cardboard7.jpg);
+    box-shadow: 0px 0px 30px -0px rgba(0,0,0,0.7), 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.folder-label {
+    display: block;
+    float: left;
+    margin-bottom: -3px;
+    padding: 0px 20px;
+    height: 30px;
+    border-radius: 15px/50px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background: url(../img/cardboard7.jpg);
+    box-shadow: 5px -8px 20px -5px rgba(0,0,0,0.5), 4px -3px 5px -3px rgba(0,0,0,0.5);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+
+#teamPhoto {
+    position: relative;
+    z-index: 101;
+    float: right;
+    overflow: hidden;
+    margin: -100px 0 -100px 0;
+    width: auto;
+    height: auto;
+    background: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.7);
+}
+
+    #teamPhoto > img {
+        display: block;
+        padding: 10px;
+        max-width: 1000px;
+    }
+
+
+
+
+
+
+#profiles > li.profile {
+    display: inline-block;
+    margin: 10px;
+    padding: 6px 6px 12px 6px;
+    background: #fff;
+}
+
+    #profiles > li.profile > h1 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+#profiles {
+    position: relative;
+    top: -50px;
+    padding: 20px;
+    text-align: center;
+}
+
+    #profiles > li.profile.leader {
+        width: 200px;
+        box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.7);
+    }
+
+    #profiles > li.profile.other {
+        width: 150px;
+        box-shadow: 0px -5px 20px 0px rgba(0,0,0,0.7);
+    }
+    /*ROTATIONS*/
+    #profiles > li.profile:nth-child(1) {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+
+    #profiles > li.profile:nth-child(2n) {
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    #profiles > li.profile:nth-child(3n) {
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    #profiles > li.profile:nth-child(5n) {
+        -moz-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        -o-transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+    }
+
+    #profiles > li.profile:nth-child(7n) {
+        -moz-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+@media screen and (max-width: 480px) {
+    #team {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #team > header {
+        top: 1%;
+    }
+    #team > .group-photo{
+        max-width: 100%;
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+    #members > li {
+        padding: 1%;
+        width: 38%;
+        background: #fff;
+    }
+}
